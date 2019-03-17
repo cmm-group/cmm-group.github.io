@@ -229,11 +229,12 @@ header a:hover{
  width: 90%;
  margin-left: 5%;
  margin-right: 5%;
- border: 5px solid #000000;
+ border-top: 5px solid #000000;
+ border-bottom: 5px solid #000000;
 }
 
 #table td, th {
- border: 0px solid #dddddd;
+ border-top: 5px solid #000000;
  text-align: left;
  padding: 8px;
 }
