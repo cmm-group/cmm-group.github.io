@@ -118,7 +118,7 @@ header a:hover{
 
 /* showcase */
 #banner{
-  min-height: 400px;
+  min-height: 300px;
   background:url('../images/Brucite1layerbannersmallest.png') no-repeat 0px -290px;
   text-align: center;
   color: #040404;
