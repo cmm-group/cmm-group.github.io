@@ -206,6 +206,13 @@ header a:hover{
 }
 /* Meet the group */
 
+#aboutbanner{
+  min-height: 200px;
+  background:url('../images/carbonatebanner.png') repeat 0px -55px;
+  text-align: center;
+  color: #040404;
+}
+
 #group h2{
   text-align: center;
   font-size: 30px;
