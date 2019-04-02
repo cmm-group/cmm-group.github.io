@@ -211,6 +211,7 @@ header a:hover{
   background:url('../images/carbonatebanner.png') repeat 0px -55px;
   text-align: center;
   color: #040404;
+  border-bottom: #000000 5px solid;
 }
 
 #group h2{
@@ -447,7 +448,8 @@ table#Publicationstable{
   min-height: 200px;
   background:url('../images/Graphene_STO1.png') repeat 0px;
   text-align: center;
-  color: #040404
+  color: #040404;
+  border-bottom: #000000 5px solid;
 }
 
 #newsbanner h1{
@@ -601,6 +603,7 @@ table#researchtable{
   background:url('../images/PuO2111banner.png') repeat 0px -70px;
   text-align: center;
   color: #040404;
+  border-bottom: #000000 5px solid;
 }
 
 #contactbanner h1{
@@ -650,6 +653,7 @@ address#address{
   background:url('../images/photo.png') repeat 0px -240px;
   text-align: center;
   color: #040404;
+  border-bottom: #000000 5px solid;
 }
 
 #photobanner h1{
