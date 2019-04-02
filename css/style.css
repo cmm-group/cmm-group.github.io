@@ -337,6 +337,16 @@ article#main-col{
 }
 
 /* Publications */
+
+#pubbanner{
+  min-height: 200px;
+  background:url('../images/abs1.png') repeat  0px ;
+  text-align: center;
+  color: #040404;
+  border-bottom: #000000 5px solid;
+  background-size: 37.5%;
+}
+
 ul#Research li{
   list-style: none;
   padding: 20px;
