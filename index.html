@@ -4,34 +4,50 @@
     <meta charset="utf-8">
     <meta name="viewpoint" content="width=device-width">
     <meta name="description" content="Website of The Computational Materials and Minerals Group">
-    <meta name="keywords" content="Chemistry, Huddersfield, Materials, Minerals, Design, Computational, Molinari, Cooke, Flitcroft, Thronton, Tse, Dawson, Moxon, cmm, cmm-group, hud, surfaces, ceria, thermoelectric, nuclear">
+    <meta name="keywords" content="Chemistry, Huddersfield, Materials, Minerals">
     <meta name="author" content="Sam Moxon">
     <title>Computational Materials and Minerals Group | Welcome!</title>
     <link rel="stylesheet" href="./css/style.css">
+	<link rel="stylesheet" href="./css/mobile.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
-   <header>
-     
+      <header>
+
      <div class="container">
        <div class="head">
          <img src="./images/logo.png">
          <h1>Computational Materials and Minerals Group</h1>
        </div>
-     </div>      
-         
-     <div class="container">
+     </div>
+
+     <div class="nav" id="the_nav">
        <nav>
          <ul>
-           <li class="current"> <a href="index.html">Home</a><li>
-           <li><a href="About.html">People</a><li>
-           <li><a href="Publications.html">Publications</a><li>
-           <li><a href="Research.html">Research</a><li>
-           <li><a href="News.html">News</a><li>
-           <li><a href="photos.html">Photos</a><li>
+           <a href="javascript:void(0);" class="icon" onclick="myFunction()">Menu
+             <i class="fa fa-bars"></i></a>
+           <a class="on" href="index.html">Home</a>
+           <a href="About.html">People</a>
+           <a href="Publications.html">Publications</a>
+           <a href="Research.html">Research</a>
+           <a href="News.html">News</a>
+           <a href="photos.html">Photos</a>
         </ul>
       </nav>
-    </div>
+</div>
+</br>
    </header>
+
+   <script>
+   function myFunction() {
+     var x = document.getElementById("the_nav");
+     if (x.className === "nav") {
+       x.className += " responsive";
+     } else {
+       x.className = "nav";
+     }
+   }
+    </script>
 
 
    <section id="banner">
