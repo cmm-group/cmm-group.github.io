@@ -13,9 +13,7 @@ body{
   width: 95%;
   margin: auto;
   overflow: hidden;
-  padding-left: 50px;
 }
-
 ul{
   margin: 0;
   padding: 0;
@@ -55,6 +53,7 @@ header{
   padding-top: 0px;
   min-height: 70px;
   border-bottom: #000000 5px solid;
+  width: 100%;
 }
 header a{
   color: #000000;
@@ -70,7 +69,7 @@ header h1{
 
 header img{
    width: 15%;
-   height: 15%;     
+   height: 15%;
    float: right;
    padding: 15px;
    margin-top: -35px;
@@ -100,21 +99,11 @@ header video{
   padding-right: 50px;
 }
 
-header nav{
-  display: inline;
-  float: left;
-}
-
 header .highlight{
   color: #000000;
   font-weight: bold;
 }
-header a:hover{
-  color: #040404;
-  font-weight: bold;
-  font-style: italic;
-  font-size: 24px;
-}
+
 
 /* showcase */
 #banner{
@@ -122,6 +111,7 @@ header a:hover{
   background:url('../images/Brucite1layerbannersmallest.png') no-repeat 0px -290px;
   text-align: center;
   color: #040404;
+  width: 100%;
   border-bottom: #000000 5px solid;
 }
 
@@ -135,7 +125,29 @@ header a:hover{
 #banner p{
   font-size:20px
 }
+.breaker
+{
 
+width: 100%;
+margin: 0 auto;
+background-color: #03c6fc;
+color: #fff;
+text-align: center;
+font-weight: bold;
+font-size: 18px; 
+border-bottom: 4px solid black;
+}
+.breaker2
+{
+margin-top: 10 px;
+width: 40%;
+background-color: #cce6ff;
+color: #000;
+text-align: center;
+font-weight: bold;
+font-size: 16px; 
+border-bottom: 2px solid black;
+}
 /*
 #newsletter{
   padding: 10px;
@@ -231,6 +243,7 @@ header a:hover{
 #table .contact{
   text-align: center;
 }
+
 #table{
  font-family: arial, sans-serif;
  border-collapse: collapse;
@@ -356,7 +369,7 @@ ul#Research li{
 }
 
 h1{
-  margin-left: 25px;
+  margin-left: 30px;
 }
 footer{
   padding: 20px;
@@ -381,7 +394,7 @@ footer p{
   float: left;
   text-align: center;
   width: 90%;
-  padding: 10px;
+  padding: 20px;
   display: inline;
 }
 
