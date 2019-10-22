@@ -2,13 +2,15 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width">
     <meta name="description" content="About the Computational Materials and Minerals Group">
     <meta name="keywords" content="Chemistry, Huddersfield, Materials, Minerals, Molinari, Marco, Cooke, David, Flitcroft, Thornton, Tse, Dawson, Moxon, cmm-group, CMM, cmm, computational, design">
     <meta name="author" content="Sam Moxon">
     <title>Computational Materials and Minerals Group | About</title>
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" media="(orientation: portrait)" href="./css/mobile.css">
+    <link rel="stylesheet" href="./css/mobile.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
   </head>
   <body>
    <header>
@@ -20,19 +22,33 @@
        </div>
      </div>
 
-     <div class="container">
+     <div class="nav" id="the_nav">
        <nav>
          <ul>
-           <li> <a href="index.html">Home</a><li>
-           <li class="current"><a href="About.html">People</a><li>
-           <li><a href="Publications.html">Publications</a><li>
-           <li><a href="Research.html">Research</a><li>
-           <li><a href="News.html">News</a><li>
-           <li><a href="photos.html">Photos</a><li>
+           <a href="javascript:void(0);" class="icon" onclick="myFunction()">Menu
+             <i class="fa fa-bars"></i></a>
+           <a href="index.html">Home</a>
+           <a class="on" href="About.html">People</a>
+           <a href="Publications.html">Publications</a>
+           <a href="Research.html">Research</a>
+           <a href="News.html">News</a>
+           <a href="photos.html">Photos</a>
         </ul>
       </nav>
-    </div>
+</div>
+</br>
    </header>
+
+   <script>
+   function myFunction() {
+     var x = document.getElementById("the_nav");
+     if (x.className === "nav") {
+       x.className += " responsive";
+     } else {
+       x.className = "nav";
+     }
+   }
+    </script>
 
    <section id="aboutbanner">
      <div class="container">
@@ -46,7 +62,7 @@
 <p style="text-align: center; font-size: 24px;"> The Computational Materials and Minerals Group is based at the University of Huddersfield, West Yorkshire, UK.
 </p>
 
-<table id="table">
+<table id="table" style="width: 100%; max-width: 1100px;">
 
   <tr>
     <th>Member</th>
@@ -283,8 +299,69 @@
   <tr>
     <td></td><td></td><td></td>
   </tr>
+<tr>
+    <td>
+      <h4>Nathan Wood</h4>
+      <section id="profilesupervisor">
+        <div class="box">
+          <img src="./images/Nathan.jpg">
+        </div>
+      </div>
+    </td>
+    <td>
+      <p>
+	  Nathan is a chemistry PhD student researching “Carbon-Oxide Composite Thermoelectric Nanomaterials” as part of a EPSRC doctoral training partnership with the University of Huddersfield. 
+	  He acquired a 2.1 in his MChem degree at Keele University in 2019, prior to joining the CMM group.
+      </p>
+    </td>
+    <td>
+      <div class="contact">
+        <p></p>
+        <div itemscope itemtype="https://schema.org/Person">
+          <a itemprop="sameAs" content="https://orcid.org/0000-0001-8753-4344" href="https://orcid.org/0000-0001-8753-4344" target="orcid.widget" rel="noopener noreferrer" style="vertical-align:top;">
+            <img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-right:.5em;" alt="ORCID iD icon">ORCID</a>
+        </div>
+        <a href="https://www.linkedin.com/in/nathan-wood-059189168" target="_blank">LinkedIn</a>
+        <p>nathan.wood@hud.ac.uk</p>
+    </div>
+    </td>
+  </tr>
+  
+  <tr>
+    <td></td><td></td><td></td>
+  </tr>
+   <tr>
+    <td>
+      <h4>Tom Smith</h4>
+      <section id="profilesupervisor">
+        <div class="box">
+          <img src="./images/Person.png">
+        </div>
+      </div>
+    </td>
+    <td>
+      <p>Tom is a PhD student in computational chemistry undertaking a project involving ‘Modelling Uranium Corrosion by Hydrogen and Formation of Uranium Hydride’ funded as part of an EPSRC Doctoral Training Partnership with the University of Huddersfield. 
+	  He obtained a First-class master’s degree in Chemistry with Industry Experience at the University of Huddersfield in 2019.
+      </p>
+    </td>
+    <td>
+      <div class="contact">
+        <p></p>
+		 <div itemscope itemtype="https://schema.org/Person">
+          <a itemprop="sameAs" content="https://orcid.org/0000-0002-9956-4046" href="https://orcid.org/0000-0002-9956-4046" target="orcid.widget" rel="noopener noreferrer" style="vertical-align:top;">
+            <img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-right:.5em;" alt="ORCID iD icon">ORCID</a>
+        </div>
+        <a href="https://www.researchgate.net/profile/Thomas_Smith131" target="_blank">Researchgate</a>
+		</br>
+		<a href="https://www.linkedin.com/in/thomas-smith-06a932155/" target="_blank">LinkedIn</a>
+        <p>tom.smith@hud.ac.uk</p>
+    </div>
+    </td>
+  </tr>
 
-
+  <tr>
+    <td></td><td></td><td></td>
+  </tr>
 </table>
 
    <footer>
