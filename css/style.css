@@ -258,7 +258,7 @@ border-bottom: 2px solid black;
  border-bottom: 5px solid #000000;
  overflow-x: auto;
  overflow-y: auto;
- width: 800px;
+ max-width: 800px;
 }
 
 #table td, th {
@@ -274,11 +274,15 @@ border-bottom: 2px solid black;
 
 #table tr:nth-child(even) {
  background-color: #ffffff;
+  overflow-x: auto;
+ overflow-y: auto;
 }
 
 #table tr:nth-child(odd) {
   background-color: #093cab;
   color: #ffffff;
+ overflow-x: auto;
+ overflow-y: auto;
 }
 
 /* Meet the Group profiles Supervisors */
