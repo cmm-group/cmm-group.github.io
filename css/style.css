@@ -19,7 +19,6 @@ ul{
   padding: 0;
   float: right;
 }
-
 .button_1{
   height: 38px;
   background: #E5E7E9;
@@ -243,15 +242,23 @@ border-bottom: 2px solid black;
 #table .contact{
   text-align: center;
 }
-
+#table p 
+{
+ font-size: 16px; 
+}
+#table h4
+{
+ font-size: 18px;
+}
 #table{
  font-family: arial, sans-serif;
  border-collapse: collapse;
- width: 90%;
- margin-left: 5%;
- margin-right: 5%;
+ margin: auto;
  border-top: 5px solid #000000;
  border-bottom: 5px solid #000000;
+ overflow-x: auto;
+ overflow-y: auto;
+ max-width: 800px;
 }
 
 #table td, th {
@@ -262,16 +269,20 @@ border-bottom: 2px solid black;
 
 #table th{
   text-align: center;
-  font-size: 24px;
+  font-size: 18px;
 }
 
 #table tr:nth-child(even) {
  background-color: #ffffff;
+  overflow-x: auto;
+ overflow-y: auto;
 }
 
 #table tr:nth-child(odd) {
   background-color: #093cab;
   color: #ffffff;
+ overflow-x: auto;
+ overflow-y: auto;
 }
 
 /* Meet the Group profiles Supervisors */
