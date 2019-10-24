@@ -448,8 +448,13 @@ footer p{
   margin-top: 20px;
   width: 20%;
   display: inline-block;
+  margin: auto;
 }
-
+#mempubs .container{
+  width: 95%;
+  margin: auto;
+  overflow: visible;
+}
 #mempubs .box{
   float: left;
   text-align: center;
@@ -518,6 +523,7 @@ table#Publicationstable{
 #Publicationstable p{
   margin-left: 25px;
 }
+
 
 /*Research */
 #Research .container{
@@ -725,7 +731,7 @@ address#address{
 }
 
 #photobanner p{
-  font-size:20px
+  font-size:18px
 }
 
 #photos .container{
@@ -734,9 +740,10 @@ address#address{
 }
 
 #photos .leftphoto{
-  display: inline-block;
+  dmargin: auto;
   float: left;
   width: 40%;
+  clear: left;
 }
 
 #photos .leftphoto img{
@@ -749,9 +756,18 @@ address#address{
 }
 
 #photos .rightphoto{
-  display: inline-block;
+margin: auto;
   float: right;
   width: 40%;
+  clear: right;
+}
+#photos .rightphoto p 
+{
+font-size:18px;
+}
+#photos .leftphoto p 
+{
+font-size:18px;
 }
 
 #photos .rightphoto img{
