@@ -540,7 +540,7 @@ table#Publicationstable{
 }
 
 #newsbanner p{
-  font-size:20px
+  font-size: 20px
 }
 
 #interests .container{
@@ -554,19 +554,12 @@ table#Publicationstable{
   padding: 5px;
   padding-right: 25px;
 }
-
 #interests .Thermoelectrics_text::after{
   content: "";
   clear: both;
   display: table;
 }
 
-#interests .Thermoelectrics_text p{
-  margin-top: 50px;
-  margin-left: -50px;
-  margin-right: -50px;
-
-}
 
 #interests .Nuclear_Materials_img{
   float: left;
@@ -581,12 +574,6 @@ table#Publicationstable{
   display: table;
 }
 
-#interests .Nuclear_Materials_text p{
-  margin-top: 50px;
-  margin-left: -50px;
-  margin-right: 50px;
-
-}
 
 #interests .Minerals_img{
   float: left;
@@ -601,12 +588,6 @@ table#Publicationstable{
   display: table;
 }
 
-#interests .Minerals_text p{
-  margin-top: 50px;
-  margin-left: -50px;
-  margin-right: 50px;
-
-}
 
 #interests .Ceria_Chemistry_img{
   float: left;
@@ -621,13 +602,13 @@ table#Publicationstable{
   display: table;
 }
 
-#interests .Ceria_Chemistry_text p{
-  margin-top: 50px;
-  margin-left: -50px;
-  margin-right: 50px;
 
+#interests p
+{
+ font-size: 18px;
+ display: block;
+ margin: auto;
 }
-
 
 table#researchtable{
   font-size: 18px;
