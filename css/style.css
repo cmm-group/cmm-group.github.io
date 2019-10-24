@@ -737,29 +737,22 @@ address#address{
 #photos .container{
   width: 80%;
   background-color: #ffffff;
+  margin: auto;
 }
 
 #photos .leftphoto{
-  dmargin: auto;
-  float: left;
-  width: 40%;
-  clear: left;
+  margin: auto;
+  width: 100%
 }
 
 #photos .leftphoto img{
-  width: 80%
-}
-
-#photos .leftphoto p{
-  width: 90%;
-  float: left;
+  width: 70%;
+  margin: auto;
 }
 
 #photos .rightphoto{
 margin: auto;
-  float: right;
-  width: 40%;
-  clear: right;
+width: 70%;
 }
 #photos .rightphoto p 
 {
@@ -771,12 +764,12 @@ font-size:18px;
 }
 
 #photos .rightphoto img{
-  width: 80%
+  width: 75%;
+  margin: auto;
 }
 
 #photos .rightphoto p{
-  width: 90%;
-  float: left;
+  width: 75%;
 }
 
 /*Medio Queries */
