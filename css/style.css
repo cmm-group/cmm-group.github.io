@@ -5,21 +5,88 @@ body{
   padding: 0;
   margin: 0;
 /*  background-color: #D7D9CE; */
-    background-color: #ffffff;
+    background-color: #E5E7E9;
 }
 header nav{
  float: left;
  font-size: 18px;
 }
+.homeconten
+{
+width: 80%;
+height: 1400px;
+margin: 0 auto;
+background-color: #ffffff;
+}
+.homecontext
+{
+	text-indent: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+	color: #000000;
+}
+.homecontext p
+{
+text-indent: 0px;
+font-size: 18px;
+width: 70%;
+margin: 0 auto;
+color: #000000;
+margin-bottom: 10px;
+}
+.homecontext li
+{
+text-indent: 0px;
+font-size: 18px;
+width: 60%;
+margin: 0 auto;
+color: #000000;
+margin-bottom: 10px;
+}
+.homecontext a:link {
+  color: #0000FF;
+  text-decoration: none;
+}
+.homecontext a:visited {
+  color: #0000FF;
+}
+.homecontext a:hover {
+  color: #00BFFF;
+}
+.homecontext a:active {
+  color: #0000FF;
+}
+.homecontext img
+{
+   margin-top: 10px;
+   width: 50%;
+   height: 50%;
+
+}
+.homecontext h1
+{
+	text-align: center;
+	font-size: 30px;
+	color: #000000; 
+}
+.homecontext h2
+{
+    border-top: 1px #ECBA11 solid;
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 24px;
+	color: #000000;
+}
 .nav{
   background-color: #333;
   overflow: hidden;
-  margin: auto;
   padding-bottom: 5px;
   padding-top: 5px;
   width:100%;
   margin:0 auto;
   float: left; 
+  position: fixed;  
 }
 
 .nav a{
@@ -98,6 +165,8 @@ header{
   min-height: 70px;
   border-bottom: #000000 5px solid;
   width: 100%;
+  position: fixed;
+  top: 0;
 }
 header a{
   color: #000000;
@@ -107,16 +176,17 @@ header a{
 }
 
 header h1{
-  font-size: 3.25vw;
+  font-size: 1.8vw;
   display: grid;
+  text-align:center;
+  padding-top: 20px;
 }
 
 header img{
-   width: 15%;
-   height: 15%;
+   width: 8%;
+   height: 8%;
    float: right;
-   padding: 15px;
-   margin-top: -10px;
+   margin-bottom: 10px;
 }
 
 header li{
@@ -151,11 +221,13 @@ header .highlight{
 
 /* showcase */
 #banner{
-  min-height: 300px;
-  background:url('../images/Brucite1layerbannersmallest.png') no-repeat 0px -290px;
+  min-height: 350px;
+
+  background:url('../images/Graphene_STO1.png') repeat 0px;
   text-align: center;
   color: #040404;
   width: 100%;
+  margin: 0 auto;
   border-bottom: #000000 5px solid;
 }
 
@@ -264,13 +336,34 @@ border-bottom: 2px solid black;
 
 
 #aboutbanner{
-  min-height: 200px;
+  min-height: 350px;
   background:url('../images/carbonatebanner.png') repeat 0px -55px;
   text-align: center;
   color: #040404;
   border-bottom: #000000 5px solid;
+  width: 80%; 
+  margin: 0 auto;
+  padding-left: 0px;
+  padding-right: 0px;
 }
-
+#gbanner
+{
+ background-color: #ffffff;
+ width: 80%;
+ margin: 0 auto;
+padding-bottom: 5px;
+padding-top: 5px;
+}
+#gbanner2
+{
+ background-color: #ffffff;
+ width: 80%;
+ margin: 0 auto;
+padding-bottom: 5px;
+padding-top: 5px;
+padding-left: 7px;
+padding-right: 7px;
+}
 #group h2{
   text-align: center;
   font-size: 30px;
@@ -412,12 +505,14 @@ article#main-col{
 /* Publications */
 
 #pubbanner{
-  min-height: 200px;
+  min-height: 350px;
   background:url('../images/abs1.png') repeat  0px ;
   text-align: center;
   color: #040404;
   border-bottom: #000000 5px solid;
   background-size: 37.5%;
+  width: 90%; 
+  margin: 0 auto;
 }
 
 ul#Research li{
@@ -443,7 +538,11 @@ footer{
 footer p{
   font-size: 28px;
 }
-
+#parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 #mempubs{
   margin-top: 20px;
   width: 20%;
@@ -529,16 +628,23 @@ table#Publicationstable{
 #Research .container{
   width: 80%;
   background-color: #ffffff;
+  padding: 2px;
+  text-align: center;
 }
 
 
 
 #newsbanner{
-  min-height: 200px;
-  background:url('../images/Graphene_STO1.png') repeat 0px;
+  min-height: 350px;
+  background:url('../images/Brucite1layerbannersmallest.png') no-repeat 0px -290px;
   text-align: center;
   color: #040404;
   border-bottom: #000000 5px solid;
+  width: 80%; 
+  margin: 0 auto;
+  padding-left: 2px;
+  padding-right: 2px;
+  
 }
 
 #newsbanner h1{
@@ -552,13 +658,14 @@ table#Publicationstable{
 #interests .container{
   width: 80%;
   background-color: #ffffff;
+  padding: 2px;
 }
 
 #interests .Thermoelectrics_img{
   float: left;
   width: 35%;
-  padding: 5px;
-  padding-right: 25px;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 #interests .Thermoelectrics_text::after{
   content: "";
@@ -669,11 +776,15 @@ table#researchtable{
 /* Contact */
 
 #contactbanner{
-  min-height: 200px;
+  min-height: 350px;
   background:url('../images/PuO2111banner.png') repeat 0px -70px;
   text-align: center;
   color: #040404;
   border-bottom: #000000 5px solid;
+  width: 80%;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 0 auto;
 }
 
 #contactbanner h1{
@@ -687,6 +798,9 @@ table#researchtable{
 #contact .container{
   width: 80%;
   background-color: #ffffff;
+  padding: 2px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 address#p{
@@ -706,8 +820,12 @@ address#address{
   float: left;
   padding: 10px;
 }
-
-
+#pubbd{
+	background-color: #ffffff;
+	width: 90%;
+	margin: 0 auto;
+	padding-top: 5px;
+}
 
 #contactphoto{
   display: inline-block;
@@ -719,11 +837,15 @@ address#address{
 /* Photos */
 
 #photobanner{
-  min-height: 200px;
+  min-height: 350px;
   background:url('../images/photo.png') repeat 0px -240px;
   text-align: center;
   color: #040404;
   border-bottom: #000000 5px solid;
+  width: 80%; 
+  margin: 0 auto;
+  padding-left: 6px;
+  padding-right: 6px;
 }
 
 #photobanner h1{
@@ -735,7 +857,7 @@ address#address{
 }
 
 #photos .container{
-  width: 80%;
+  width: 85%;
   background-color: #ffffff;
   margin: auto;
 }
