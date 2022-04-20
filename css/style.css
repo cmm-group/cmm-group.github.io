@@ -8,12 +8,13 @@ body{
     background-color: #E5E7E9;
 }
 header nav{
- float: left;
+ display: flex;
+ justify-content: center;
  font-size: 18px;
 }
 .homeconten
 {
-width: 80%;
+width: 96%;
 height: 100%;
 margin: 0 auto;
 background-color: #ffffff;
@@ -122,7 +123,7 @@ margin-bottom: 10px;
 }
 /* Global */
 .container{
-  width: 95%;
+  width: 100%;
   margin: auto;
   overflow: hidden;
 }
@@ -176,10 +177,10 @@ header a{
 }
 
 header h1{
-  font-size: 1.8vw;
+  font-size: 26px;
   display: grid;
   text-align:center;
-  padding-top: 20px;
+  padding-top: 30px;
 }
 
 header img{
@@ -187,6 +188,7 @@ header img{
    height: 8%;
    float: right;
    margin-bottom: 10px;
+   margin-right: 1.5%;
 }
 
 header li{
@@ -341,7 +343,7 @@ border-bottom: 2px solid black;
   text-align: center;
   color: #040404;
   border-bottom: #000000 5px solid;
-  width: 80%; 
+  width: 96%; 
   margin: 0 auto;
   padding-left: 0px;
   padding-right: 0px;
@@ -349,7 +351,7 @@ border-bottom: 2px solid black;
 #gbanner
 {
  background-color: #ffffff;
- width: 80%;
+ width: 96%;
  margin: 0 auto;
 padding-bottom: 5px;
 padding-top: 5px;
@@ -357,25 +359,26 @@ padding-top: 5px;
 #gbanner2
 {
  background-color: #ffffff;
- width: 80%;
+ width: 96%;
  margin: 0 auto;
 padding-bottom: 5px;
 padding-top: 5px;
-padding-left: 7px;
-padding-right: 7px;
+padding-left: 0px;
+padding-right: 0px;
 }
 #group h2{
   text-align: center;
-  font-size: 30px;
+  font-size: 28px;
 }
 
 #table h4{
-  text-align: center;
+  text-align: left;
+  margin-left: 5%;
   font-size: 24px;
 }
 #group
 {
-max-width: 100%;
+width: 96%;
 }
 #table p{
   padding: 0px;
@@ -390,7 +393,8 @@ max-width: 100%;
 }
 #table h4
 {
- font-size: 18px;
+ font-size: 22px;
+ text-align: center;
 }
 #table{
  font-family: arial, sans-serif;
@@ -398,11 +402,14 @@ max-width: 100%;
  margin: auto;
  border-top: 5px solid #000000;
  border-bottom: 5px solid #000000;
- overflow-x: auto;
- overflow-y: auto;
- max-width: 80%;
+ width: 96%;
+ margin-right: auto;
 }
-
+#table img{
+ margin: auto;
+ padding-left: 50px;
+ width: 90%;
+}
 #table td, th {
  border-top: 5px solid #000000;
  text-align: left;
@@ -411,12 +418,16 @@ max-width: 100%;
 
 #table th{
   text-align: center;
-  font-size: 18px;
+  font-size: 22px;
+}
+
+#table tr {
+  width: 100%;
 }
 
 #table tr:nth-child(even) {
  background-color: #ffffff;
-  overflow-x: auto;
+ overflow-x: auto;
  overflow-y: auto;
 }
 
@@ -441,7 +452,7 @@ max-width: 100%;
 }
 
 #profilesupervisor .box img{
-  width: 200px;
+  width: 220px;
 }
 
 #profilesupervisor .box a{
@@ -462,7 +473,7 @@ max-width: 100%;
 }
 
 #profilepostgrad .box img{
-  width: 200px;
+  width: 220px;
 }
 
 /* Meet the Group profiles PhD */
@@ -479,7 +490,7 @@ max-width: 100%;
 }
 
 #profilePhD .box img{
-  width: 200px;
+  width: 220px;
 }
 /* sidebar */
 
@@ -511,7 +522,7 @@ article#main-col{
   color: #040404;
   border-bottom: #000000 5px solid;
   background-size: 37.5%;
-  width: 90%; 
+  width: 96%; 
   margin: 0 auto;
 }
 
@@ -527,16 +538,15 @@ h1{
   margin-left: 30px;
 }
 footer{
-  padding: 20px;
-  margin-top: 20px;
+  
   color: #000000;
-  background-color:#E5E7E9;
+  margin: 5px auto;
   text-align: center;
-  border-top: #000000 5px solid;
+  width: 96%;
 }
 
 footer p{
-  font-size: 28px;
+  font-size: 20px;
 }
 #parent {
   display: flex;
@@ -550,7 +560,7 @@ footer p{
   margin: auto;
 }
 #mempubs .container{
-  width: 95%;
+  width: 96%;
   margin: auto;
   overflow: visible;
 }
@@ -626,7 +636,7 @@ table#Publicationstable{
 
 /*Research */
 #Research .container{
-  width: 80%;
+  width: 96%;
   background-color: #ffffff;
   padding: 2px;
   text-align: center;
@@ -640,7 +650,7 @@ table#Publicationstable{
   text-align: center;
   color: #040404;
   border-bottom: #000000 5px solid;
-  width: 80%; 
+  width: 96%; 
   margin: 0 auto;
   padding-left: 2px;
   padding-right: 2px;
@@ -656,7 +666,7 @@ table#Publicationstable{
 }
 
 #interests .container{
-  width: 80%;
+  width: 96%;
   background-color: #ffffff;
   padding: 2px;
 }
@@ -796,7 +806,7 @@ table#researchtable{
 }
 
 #contact .container{
-  width: 80%;
+  width: 96%;
   background-color: #ffffff;
   padding: 2px;
   padding-left: 10px;
@@ -822,7 +832,7 @@ address#address{
 }
 #pubbd{
 	background-color: #ffffff;
-	width: 90%;
+	width: 96%;
 	margin: 0 auto;
 	padding-top: 5px;
 }
@@ -842,10 +852,10 @@ address#address{
   text-align: center;
   color: #040404;
   border-bottom: #000000 5px solid;
-  width: 80%; 
+  width: 96%; 
   margin: 0 auto;
-  padding-left: 6px;
-  padding-right: 6px;
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
 #photobanner h1{
@@ -857,7 +867,7 @@ address#address{
 }
 
 #photos .container{
-  width: 85%;
+  width: 96%;
   background-color: #ffffff;
   margin: auto;
 }
